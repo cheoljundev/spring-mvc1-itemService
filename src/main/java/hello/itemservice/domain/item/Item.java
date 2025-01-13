@@ -1,8 +1,10 @@
 package hello.itemservice.domain.item;
 
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
 public class Item {
 
     private Long id;
